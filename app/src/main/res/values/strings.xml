@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="refresh_content">ref</string>
+    <string name="app_name">name\n</string>
+    <string name="seed" />
+    <string name="tools" />
+    <string name="nursery_logo" />
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4">
+
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:scrollbars="vertical">
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="300dp"
+          android:orientation="vertical">
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Place your orders"
+              android:textSize="50dp"
+              android:textColor="@color/black"
+              android:fontFamily="cursive"
+              android:textStyle="bold"
+              android:paddingLeft="40dp"/>
+          <ImageSwitcher
+              android:id="@+id/is"
+              android:layout_width="match_parent"
+              android:layout_height="178dp"
+              android:layout_centerInParent="true"/>
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="1.Indoor plants"
+              android:textSize="50dp"
+              android:textColor="@color/black"
+              android:fontFamily="cursive"/>
+
+          <ImageButton
+              android:layout_width="wrap_content"
+              android:layout_height="300dp"
+              android:paddingTop="30dp"
+              android:src="@drawable/indoor"
+              android:paddingLeft="20dp"
+              android:id="@+id/indoor"
+              android:paddingRight="20dp"
+              android:contextClickable="true"/>
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="2.Outdoor plants"
+              android:textSize="50dp"
+              android:textColor="@color/black"
+              android:fontFamily="cursive"/>
+          <ImageButton
+              android:layout_width="match_parent"
+              android:layout_height="300dp"
+              android:paddingTop="30dp"
+              android:src="@drawable/outdoor"
+              android:contextClickable="true"
+              android:id="@+id/outdoor"/>
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="3.Plant Seeds"
+              android:textSize="50dp"
+              android:textColor="@color/black"
+              android:fontFamily="cursive"/>
+          <ImageButton
+              android:layout_width="match_parent"
+              android:layout_height="300dp"
+              android:src="@drawable/seeds"
+              android:contextClickable="true"
+              android:id="@+id/seeds"/>
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="4.Equipments"
+              android:textSize="50dp"
+              android:textColor="@color/black"
+              android:fontFamily="cursive"/>
+          <ImageButton
+          android:layout_width="match_parent"
+          android:layout_height="300dp"
+          android:src="@drawable/tools"
+              android:contextClickable="true"
+              android:id="@+id/tools"/>
+
+      </LinearLayout>
+  </ScrollView>
+    </RelativeLayout>

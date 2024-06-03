@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment3">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+
+                android:text="Start your gardening work(for children)"
+                android:textSize="60dp"
+                android:textStyle="italic"
+                android:fontFamily="cursive"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="step1:choose your favorite plant seeds to"
+                android:textSize="30dp"/>
+
+            <ImageView
+                android:layout_width="365dp"
+                android:layout_height="300dp"
+                android:paddingLeft="30dp"
+                android:src="@drawable/seeding" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Step2:water them daily to grow"
+                android:textSize="30dp"/>
+            <ImageView
+                android:layout_width="365dp"
+                android:layout_height="300dp"
+                android:paddingLeft="30dp"
+                android:src="@drawable/ad4"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="step3:Maintain them correctly"
+                android:textSize="30dp"/>
+            <ImageView
+                android:layout_width="365dp"
+                android:layout_height="300dp"
+                android:paddingLeft="30dp"
+                android:src="@drawable/save2"/>
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

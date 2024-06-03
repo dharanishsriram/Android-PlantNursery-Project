@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity8"
+    android:background="@android:color/black">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SELECT YOUR EQUIPMENTS:"
+                android:textSize="34dp"
+                android:textColor="@color/white"
+                android:fontFamily="cursive"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="30dp"
+                android:text="25% DISCOUNT "
+                android:textColor="#F41717"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                />
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="50dp">
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/fork" />
+
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/rake" />
+                </TableRow>
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Fork(Rs.102)"
+                        android:textSize="20dp"
+                        android:textColor="@color/white"
+                        android:paddingLeft="30dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Rake(Rs.150)"
+                        android:textSize="20dp"
+                        android:textColor="@color/white"
+                        android:paddingLeft="40dp"
+                        />
+                </TableRow>
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content">
+                    <Switch
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Purchase Now!!"
+                        android:textColor="@android:color/holo_blue_light"
+                        android:textStyle="bold"
+                        android:paddingLeft="40dp"/>
+                    <Switch
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Purchase Now!!"
+                        android:textColor="@android:color/holo_blue_light"
+                        android:textStyle="bold"
+                        android:paddingLeft="40dp"/>
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="27dp"
+                    >
+
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/barrow" />
+
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/shovel" />
+
+                </TableRow>
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="barrow(Rs.500)"
+                        android:textSize="20dp"
+                        android:textColor="@color/white"
+                        android:paddingLeft="30dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="shovel(Rs.450)"
+                        android:textSize="20dp"
+                        android:textColor="@color/white"
+                        android:textAlignment="center"
+                        />
+                </TableRow>
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content">
+                    <Switch
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Purchase Now!!"
+                        android:textColor="@android:color/holo_blue_light"
+                        android:textStyle="bold"
+                        android:paddingLeft="40dp"/>
+                    <Switch
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Purchase Now!!"
+                        android:textColor="@android:color/holo_blue_light"
+                        android:textStyle="bold"
+                        android:paddingLeft="40dp"/>
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="27dp"
+                    >
+
+
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/hose" />
+
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/gloves" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hose(Rs.1200)"
+                        android:textSize="20dp"
+                        android:textColor="@color/white"
+                        android:paddingLeft="30dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="gloves(Rs.90)"
+                        android:textSize="20dp"
+                        android:textColor="@color/white"
+                        android:paddingLeft="40dp"
+                        />
+                </TableRow>
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content">
+                    <Switch
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Purchase Now!!"
+                        android:textColor="@android:color/holo_blue_light"
+                        android:textStyle="bold"
+                        android:paddingLeft="40dp"/>
+                    <Switch
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Purchase Now!!"
+                        android:textColor="@android:color/holo_blue_light"
+                        android:textStyle="bold"
+                        android:paddingLeft="40dp"/>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content">
+                    <Button
+                        android:id="@+id/backe"
+                        android:layout_width="10dp"
+                        android:layout_height="wrap_content"
+                        android:text=" Back"
+                        android:textSize="20dp"
+                        android:textStyle="italic"
+                        android:layout_marginTop="30dp"
+                        android:backgroundTint="@color/design_default_color_secondary_variant"/>
+                    <Button
+                        android:id="@+id/exite"
+                        android:layout_width="10dp"
+                        android:layout_height="wrap_content"
+                        android:text="Buy Now "
+                        android:textSize="20dp"
+                        android:textStyle="italic"
+                        android:layout_marginTop="30dp"
+                        android:backgroundTint="@color/design_default_color_secondary_variant"/>
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

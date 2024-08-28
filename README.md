@@ -1,1 +1,1 @@
-                                            ***********************          Project is located in master branch NOTE IT            ****************************
+***********************          Project is located in master branch NOTE IT            ****************************
